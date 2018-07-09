@@ -1,0 +1,50 @@
+.btn > a {
+  text-decoration: none;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  justify-content: center;
+    align-items: center;
+
+}
+
+.btn {
+
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	color: black;
+	background-color:  #d7af72;
+	border: 1px solid gray;
+	border-radius: 4px;
+	margin: 4px;
+	justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.all-btn {
+	display: flex;
+	flex-wrap: wrap;
+}
+.all-btn1 {
+	display: flex;
+    	flex: none;
+
+}
+.disabled {
+	background:  #сс984а;
+	pointer-events: none; /* делаем элемент неактивным для взаимодействия */
+	cursor: default; /*  курсор в виде стрелки */
+	color: #888;/* цвет текста серый */
+}
+
+.1 {
+	background: #d7af72;
+}
+.2 {
+	margin-right: 10px;
+}
